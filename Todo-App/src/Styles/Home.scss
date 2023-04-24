@@ -1,0 +1,25 @@
+.task-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.links {
+  background-color: lightblue;
+  height: 100vh;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.links a {
+  margin-top: 1rem;
+}
+
+.task-content {
+  background-color: lightblue;
+  width: 100%;
+}
