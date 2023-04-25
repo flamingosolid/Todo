@@ -2,7 +2,7 @@
   height: 100vh;
   display: flex;
   justify-content: flex-start;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 .links {
@@ -22,4 +22,42 @@
 .task-content {
   background-color: lightblue;
   width: 100%;
+  overflow: auto;
+}
+
+.addTaskBtn {
+  padding: 1rem;
+  padding-left: 2.5rem;
+}
+
+.addTaskBtn button {
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.test2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.items {
+  justify-content: center;
+  align-items: center;
+}
+
+.test {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  background-color: lavender;
+  padding: 1rem;
 }
